@@ -25,8 +25,8 @@ Bayesian estimation of methylation and and differential methylation from bisulfi
 Abstract
 --------
 
-Genome-wide cytosine methylation is typically detected through bisulfite sequencing whereby to each
-cytosine in the reference genome is assigned a count of "methylated" and "unmethylated" reads.
+Genome-wide cytosine methylation is typically detected through bisulfite sequencing whereby a count
+for "methylated" and for "unmethylated" reads is assigned to each cytosine in the reference genome.
 Consequently, differential methylation between pairs of samples can be assessed by simply applying a
 Fisher test at each genomic position of interest. A limitation of the Fisher test is that by
 assessing each position independently of the others,  the information from the global distribution
@@ -34,8 +34,8 @@ of methylation is ignored. Here, we present a Bayesian approach to the estimatio
 differential methylation which uses the global distribution of methylation as prior distribution. By
 updating this prior with the observed methylated and unmethylated counts, we obtain at each position
 in each sample a posterior distribution that can be used to obtain credible intervals for
-methylation and as input for differential methylation. We apply our approach to real and simulated
-genomic data and show that the Bayesian approach achieves better performance over a Fisher test.
+methylation and serves as input for differential methylation. We apply our approach to real and
+simulated genomic data and show that our method achieves better performance over a Fisher test.
 
 
 Introduction
