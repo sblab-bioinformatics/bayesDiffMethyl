@@ -400,7 +400,7 @@ Inspecting the posterior distributions
 
 The Bayesian estimates of the tumor-margin differences were compared to the observed differences simply calculated as:
 
-<img src="latex/equations.4.jpg" width="400">
+<img src="../20160807_method/latex/equations.4.jpg" width="400">
 
 Where #M and #U are the read count methylated and unmethylated, respectively.
 
