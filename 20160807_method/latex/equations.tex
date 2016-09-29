@@ -58,4 +58,40 @@ Beta(y_{met} + \alpha_{high}, y_{unmet} + \beta_{high}), & \mbox{with } \mbox{ $
     \frac{\#M_{mar}}{(\#M_{mar} + \#U_{mar})}
 \end{equation*}
 
+\newpage
+\begin{equation*}
+Prior(5mC) = 
+\begin{cases} 
+Beta_{low}(\alpha_{low}, \beta_{low}), & \mbox{with } \mbox{ $\pi$ } \\
+\\
+Beta_{high}(\alpha_{high}, \beta_{high}), & \mbox{with } \mbox{ $1 - \pi$ }
+\end{cases}
+\end{equation*}
+
+\begin{equation*}
+\pi = N_{n < cutoff} / N
+\end{equation*}
+
+\newpage
+
+\begin{equation*}
+Posterior(5mC) = 
+\begin{cases} 
+Beta(y_{met} + \alpha_{low}, y_{unmet} + \beta_{low}) , & \mbox{with } \mbox{ $\pi$ } \\
+\\
+Beta(y_{met} + \alpha_{high}, y_{unmet} + \beta_{high}), & \mbox{with } \mbox{ $1 - \pi$ }
+\end{cases}
+\end{equation*}
+
+\newpage
+
+% Difference
+\newpage
+\begin{equation*}
+Posterior(5mC_{A} - 5mC_{B}) = Posterior(5mC_{A}) - Posterior(5mC_{B})
+\end{equation*}
+
+
 \end{document}
+
+
